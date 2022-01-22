@@ -1,9 +1,9 @@
 ---
-emoji: 🔮
-title: [알고리즘] 이분 탐색 (Binary Search)
-date: '2022-01-19 15:46:00'
+emoji: 🧑🏻‍💻
+title: 이분 탐색 (Binary Search)
+date: '2021-03-22 23:00:00'
 author: Hanboo
-tags: 알고리즘
+tags: 알고리즘 이분탐색 이진탐색
 categories: 알고리즘
 ---
 
@@ -46,6 +46,56 @@ def BinarySearch(arr, target):
             right = mid
     return (left + right) / 2
 ```
+
+## Lower Bound / Upper Bound
+
+### 의미
+
+- **Lower Bound**: 원하는 값 N <span style="color:red">이상</span>이 처음 나오는 위치
+- **Upper Bound**: 원하는 값 N을 처음으로 <span style="color:red">초과</span>하는 위치
+
+### 활용
+
+Lower Bound와 Upper Bound를 이용하여 해당 리스트에 원하는 값 N의 갯수를 확인할 수 있다.
+
+- Lower Bound == Upper Bound: 해당 리스트에 원하는 값 N이 존재하지 않는다.
+- Upper Bound - Lower Bound = 1 : 해당 리스트에 원하는 값 N이 한 개 존재한다.
+- Upper Bound - Lower Bound = K : 해당 리스트에 원하는 값 N이 K 개 존재한다.
+
+**Lower Bound가 결국 이분 탐색의 원하는 <span style="color:red">결과값</span>이 될 수 있다.**
+
+## Python - bisect
+
+파이썬에는 내장함수로 bisect를 지원하고 있다. bisect를 이용하여 쉽게 lower bound, upper bound를 구현할 수 있다.
+
+```python
+import bisect
+
+_list = [23, 24, 25, 26, 45, 45, 45, 57, 58, 61, 64, 68]
+
+# lower bound 구하기
+print(bisect.bisect_left(_list, 45))
+# 4
+
+# upper bound 구하기
+print(bisect.bisect_right(_list, 45))
+# 7
+
+# target 값 갯수 구하기
+print(bisect.bisect_right(_list, 45) - bisect.bisect_left(_list, 45))
+# 3
+```
+
+### 이분 탐색 연습 문제
+
+- [수 찾기 (1920)](https://www.acmicpc.net/problem/1920)
+- [Sort 마스터 배지훈의 후계자 (20551)](https://www.acmicpc.net/problem/20551)
+- [숫자 카드 (10815)](https://www.acmicpc.net/problem/10815)
+- [나무 자르기 (2805)](https://www.acmicpc.net/problem/2805)
+- [랜선 자르기 (1654)](https://www.acmicpc.net/problem/1654)
+- [징검다리 (11561)](https://www.acmicpc.net/problem/11561)
+- [파닭파닭 (14627)](https://www.acmicpc.net/problem/14627)
+- [맥주 축제 (17503)](https://www.acmicpc.net/problem/17503)
 
 ```toc
 

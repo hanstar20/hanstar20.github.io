@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/Docker",
+    "result": {"pageContext":{"currentCategory":"Docker","categories":["All","Docker","알고리즘"],"edges":[{"node":{"id":"81432326-81e1-5c61-a5eb-d99a826644dd","excerpt":"Docker image 종류? 처음 Docker를 접하고 Docker Hub에서 이미지를 받으려고 한다면 수십가지의 docker 이미지로 인해 선택장애를 일으킬 확률이 매우 높다.  위의 사진은 Python 이미지를 받기 위해 Docker Hub에 들어가면 만나게 되는 장면이다. 숫자는 Python 버전을 의미하는 것 같은데 뒤에 붙은 단어들은 도대체 뭘 의미하는 걸까? 이 많은 것들 중에 어떤 이미지를 선택해서 써야할까? 이러한 궁금증을 같이 풀어보도록 하자. 이미지 종류 Full official image stretch/buster/jessie/bullseye slim alpine windowsservercore Full official image name:version 기본적으로 Docker는 name:version에 해당하는 버전을 사용한다. (Base 이미지)\n해당 버전의 이미지는 가장 최근의 안정적인 데비안 운영 체제 릴리스를 기반으로 한다. 가장 안정적이기 때문에 만약…","fields":{"slug":"/docker-images/"},"frontmatter":{"categories":"Docker","title":"Docker 이미지 종류","date":"January 25, 2022"}},"next":{"fields":{"slug":"/algorithm-binanry-search/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}

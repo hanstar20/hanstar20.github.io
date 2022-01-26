@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Docker 이미지 종류","categories":"Docker"},"fields":{"slug":"/docker-images/"}}},{"node":{"frontmatter":{"title":"이분 탐색 (Binary Search)","categories":"알고리즘"},"fields":{"slug":"/algorithm-binanry-search/"}}}]}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"이분 탐색 (Binary Search)","categories":"알고리즘"},"fields":{"slug":"/algorithm-binanry-search/"}}}]}}}

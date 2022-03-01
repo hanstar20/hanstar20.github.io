@@ -86,6 +86,15 @@ MIT 라이선스(MIT License)는 미국 매사추세츠 공과대학교(MIT)에�
 
 - <span style="color:red">Bootstrap</span> | <span style="color:red">Angular.js</span> | <span style="color:red">Backbone.js</span> | <span style="color:red">jQuery</span>
 
+## 마치며
+
+내가 찾았던 A 에디터는.... 'GPL' 이었다... 아 개망했다... 에디터 때문에 서비스 전체 코드를 공개할 수는 없잖아...
+결국 다시 조사한 결과...
+
+**결국 B 에디터를 사서 쓰기로 했다.**
+
+역시 사서 쓰는게 짱인듯 하다!!
+
 ## 참고자료
 
 [https://toma0912.tistory.com/78](https://toma0912.tistory.com/78)
